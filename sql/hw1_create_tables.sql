@@ -1,22 +1,22 @@
 create database hw1_customer_transactions;
 
 CREATE TABLE IF NOT EXISTS product (
-	product_id INT PRIMARY KEY,
-	brand TEXT,
-	product_line VARCHAR(15),
-	product_class VARCHAR(15),
-	product_size VARCHAR(10),
-	list_price FLOAT8 NOT NULL
+    product_id INT PRIMARY KEY,
+    brand TEXT,
+    product_line VARCHAR(15),
+    product_class VARCHAR(15),
+    product_size VARCHAR(10),
+    list_price FLOAT8 NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS transaction (
-	transaction_id INT PRIMARY KEY,
-	product_id INT NOT NULL,
-	customer_id INT NOT NULL,
-	transaction_date VARCHAR(10) NOT NULL,
-	online_order BOOL,
-	order_status VARCHAR(10) NOT NULL,
-	standard_cost FLOAT8 NOT null
+    transaction_id INT PRIMARY KEY,
+    product_id INT NOT NULL,
+    customer_id INT NOT NULL,
+    transaction_date VARCHAR(10) NOT NULL,
+    online_order BOOL,
+    order_status VARCHAR(10) NOT NULL,
+    standard_cost FLOAT8 NOT null
 );
 
 CREATE TABLE IF NOT EXISTS customer (
@@ -32,17 +32,17 @@ CREATE TABLE IF NOT EXISTS customer (
 );
 
 CREATE TABLE IF NOT EXISTS job (
-	job_id VARCHAR(20) PRIMARY KEY,
-	job_title TEXT,
+    job_id VARCHAR(20) PRIMARY KEY,
+    job_title TEXT,
     job_industry_category TEXT,
     wealth_segment text
 );
 
 CREATE TABLE IF NOT EXISTS address (
-	address_id VARCHAR(20) PRIMARY KEY,
-	address TEXT NOT NULL,
-	postcode INT NOT NULL,
-	state TEXT,
-	country TEXT NOT NULL,
-	property_valuation INT
+    address_id VARCHAR(20) PRIMARY KEY,
+    address TEXT NOT NULL,
+    postcode INT NOT NULL,
+    state TEXT,
+    country TEXT NOT NULL,
+    property_valuation INT
 );
