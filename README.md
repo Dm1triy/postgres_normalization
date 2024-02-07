@@ -32,6 +32,7 @@
 ### Этапы работы
 
 1. Описание этапов нормализации БД: [normalization_description.md](normalization_description.md)
-2. Подготовка данных для загрузки, создание таблиц, загрузка данных: [fill_db.ipynb](fill_db.ipynb)
+2. Cоздание таблиц, загрузка данных с помощью sql: [DBeaver.md](sql/DBeaver.md)
+3. Подготовка данных для загрузки, создание таблиц, загрузка данных с помощью python: [fill_db.ipynb](fill_db.ipynb)
 
 :arrow_up:[к оглавлению](#Оглавление)
