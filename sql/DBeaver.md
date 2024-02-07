@@ -15,3 +15,21 @@
 После успешной загрузки, данные отоброзятся в таблице:
 
 ![alt text](../imgs/dbeaver/import_customer_data_2.jpg)
+
+Проделав тоже самое для других таблиц:
+
+Таблица address:
+
+![alt text](../imgs/address_data.jpg)
+
+Таблица product:
+
+![alt text](../imgs/product_data.jpg)
+
+Таблица transaction:
+
+![alt text](../imgs/transaction_data.jpg)
+
+Таблица job:
+
+![alt text](../imgs/job_data.jpg)
